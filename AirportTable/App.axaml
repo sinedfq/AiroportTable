@@ -1,0 +1,19 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:Scoreboard"
+             x:Class="Scoreboard.App">
+    <Application.DataTemplates>
+        <local:ViewLocator/>
+    </Application.DataTemplates>
+
+    <Application.Styles>
+        <FluentTheme Mode="Light"/>
+    </Application.Styles>
+
+	<Application.Resources>
+		<Image x:Key="vilet1" Source="/Assets/vilet1.png"/>
+		<Image x:Key="vilet2" Source="/Assets/vilet2.png"/>
+		<Image x:Key="prilet1" Source="/Assets/prilet1.png"/>
+		<Image x:Key="prilet2" Source="/Assets/prilet2.png"/>
+	</Application.Resources>
+</Application>
